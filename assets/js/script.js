@@ -15,11 +15,10 @@ function writePassword() {
   passwordText.value = password;
   document.getElementById("password").value = password;
 }
-// iejkf;lksadjf
+
 function copyPassword() {
  var copyText = document.getElementById("password");
  copyText.select();  
-
 }
 
 // Add event listener to generate button
